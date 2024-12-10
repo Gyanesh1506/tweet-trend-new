@@ -1,6 +1,8 @@
 pipeline{
     agent{
+       node{
         label "MAVEN"
+       }	
     }
     stages{
         stage("Building Cod"){
