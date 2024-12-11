@@ -5,7 +5,7 @@ pipeline{
        }	
     }
     stages{
-        stage("Building Cod"){
+        stage("Building Code for Maven"){
             steps{
                 sh 'mvn clean deploy'
             }
